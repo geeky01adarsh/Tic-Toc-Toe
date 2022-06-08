@@ -204,6 +204,6 @@ b9.config(command = lambda : ButtonClick(9))
 
 Button(text="New Game..", font=('Papyrus', 12, 'bold'), bg='Purple', fg='white',
             border=5, width=4,command = lambda :Restart()).grid(row=0, column=1, sticky="we")
-Button(text="Made by Ad.", font=('Papyrus', 12 , 'bold'), bg='Green', fg='white').grid(row=1, column=1)
+Button(text="Made by geeky01adarsh", font=('Papyrus', 12 , 'bold'), bg='Green', fg='white').grid(row=1, column=1)
 root.resizable(0,0)
 root.mainloop()
